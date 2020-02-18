@@ -40,9 +40,45 @@ body {
 }
 
 .calc {
-  border: 1px solid #ebe6e6;
-  border-radius: 1%;
+  box-sizing: border-box;
+  border: 1px solid #d9d9d9;
+  border-radius: 0.5em;
   width: 50vw;
-  height: 60vh;
+  height: 70vh;
+  padding: 1.3em; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  
+
+.screen {
+  border: 1px solid #d9d9d9;
+  border-radius: 0.5em;
+  width: 100%;
+  height: 15vh;
+}
+
+.buttons {
+  border: 1px solid #d9d9d9;
+  height: 100%;
+  border-radius: 0.5em;
+  margin-top: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.buttons button {
+  border-radius: 0.3em;
+  width: 6em;
+  height: 3em;
+}
+
+.buttons button:first-child {
+  width: 12em;
+  height: 3em;
 }
 
